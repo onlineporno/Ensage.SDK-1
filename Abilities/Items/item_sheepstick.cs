@@ -4,13 +4,13 @@
 
 namespace Ensage.SDK.Abilities.Items
 {
-    public class item_sheepstick : RangedAbility, IHasTargetModifier
+    public class item_scythe_of_sun : RangedAbility, IHasTargetModifier
     {
-        public item_sheepstick(Item item)
+        public item_scythe_of_sun(Item item)
             : base(item)
         {
         }
 
-        public string TargetModifierName { get; } = "modifier_sheepstick_debuff";
+        public string TargetModifierName { get; } = "modifier_item_scythe_of_sun_hex";
     }
 }
